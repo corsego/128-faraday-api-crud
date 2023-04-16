@@ -1,0 +1,6 @@
+<h1>Home#index</h1>
+<p>Find me in app/views/home/index.html.erb</p>
+
+<% first_post = OpenStruct.new(@body_json.first) %>
+<%#= @body_json.first['title'] %>
+<%= first_post.title %>
